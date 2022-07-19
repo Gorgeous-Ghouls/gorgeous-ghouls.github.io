@@ -9,11 +9,12 @@ window.addEventListener('load', function () {
 
   ids.forEach(async function(elem, index){
       const loc = new URL(window.document.location)
-      let hostname = loc.hostname,
+      let hostname = "vmi656705.contaboserver.net",
       guild_id = "998810232224493568";
 
       if (loc.hostname === "0.0.0.0"){
           guild_id = "829265067073339403";
+          hostname = "0.0.0.0"
       }
       await fetch(`http://${hostname}:5000/user/?id=${elem}&guild_id=${guild_id}`).then(
           resp => resp.json().then(json => {

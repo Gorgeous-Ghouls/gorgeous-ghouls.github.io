@@ -1,7 +1,7 @@
 body {
     background-color: black;
-    background-image: url("static/images/red_tk.jpg");
-    background-position: center;
+    background-image: url("static/images/red_tk_cropped.jpg");
+    background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;

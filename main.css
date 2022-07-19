@@ -19,6 +19,12 @@ body {
     /*align-items: center;*/
 
 }
+.discord-link {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
 .tm-text{
     padding-top: 10px;
     padding-bottom: 20px;

@@ -9,7 +9,7 @@ window.addEventListener('load', function () {
 
   ids.forEach(async function(elem, index){
       const loc = new URL(window.document.location)
-      let hostname = "stilllearning.tech",
+      let hostname = "ranger.stilllearning.tech",
       guild_id = "998810232224493568";
 
       if (loc.hostname === "0.0.0.0"){
